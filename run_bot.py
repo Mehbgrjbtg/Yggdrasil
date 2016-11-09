@@ -73,4 +73,8 @@ async def repeat(times : int, content='repeating...'):
     for i in range(times):
         await bot.say(content)
 
+@bot.command()
+async def cmd_ping(self, channel):
+        await self.safe_send_message(channel, "Pong!")
+
 bot.run('MjQ1MTk5NzA2ODExMTM4MDQ4.CwIrIQ.KkNZD6EnwVfsWtfQp9bMIrftLac')
