@@ -78,4 +78,4 @@ async def ping(response ='Pong!'):
 async def commands(helpme = "```Current commands are ?roll NdN and ?ping```"):
         await bot.say(helpme)
 
-bot.run('MjQ1MTk5NzA2ODExMTM4MDQ4.CwIrIQ.KkNZD6EnwVfsWtfQp9bMIrftLac')
+bot.run('NTM2MzU1MTI4MTQ0NTYwMTM4.DyVfSA.Y0JrNl5-CW67gDHDO_DR1dJ-RbA')
